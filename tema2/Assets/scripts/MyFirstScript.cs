@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MyFirstScript : MonoBehaviour
 {
-    /*
+    
     
     private float playerSpeed = 5.25f;
     public string playerName = "Lejan";
@@ -18,11 +18,20 @@ public class MyFirstScript : MonoBehaviour
     public float b = 2f;
 
     public bool isRaining = false;
-    */
+
+    public bool isCold = true;
     public int playerAge = 35;
     // Start is called before the first frame update
     void Start()
     {
+        if (x== 2 || y <= 5)
+        {
+            Debug.Log("verdadero");
+        }
+        else
+        {
+            Debug.Log("Falso");
+        }
         /*
         Debug.Log($"suma: {x} + {y} = {x + y}");
         Debug.Log("Resta: " + x + " - " + y + " = " + (x - y));

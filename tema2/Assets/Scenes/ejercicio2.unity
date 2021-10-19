@@ -434,6 +434,7 @@ MonoBehaviour:
   numberWheels: 4
   hasSiren: 0
   isOn: 1
+  Gasoline: 8.25
 --- !u!1 &285315829
 GameObject:
   m_ObjectHideFlags: 0
@@ -2463,7 +2464,8 @@ MonoBehaviour:
   name: ambulancia
   numberWheels: 4
   hasSiren: 1
-  isOn: 0
+  isOn: 1
+  Gasoline: 49.75
 --- !u!1 &1601759535
 GameObject:
   m_ObjectHideFlags: 0
