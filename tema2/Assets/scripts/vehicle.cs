@@ -75,6 +75,53 @@ public class vehicle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (isOn == true)
+        {
+            if (Input.GetKeyDown(KeyCode.D))
+        {
+            transform.position += Vector3.right;
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            transform.position += Vector3.left;
+        }
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            transform.position += Vector3.forward;
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            transform.position += Vector3.back;
+        }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            transform.position += Vector3.up;
+        }
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            transform.position += Vector3.down;
+        }
+        //Rotacion personaje
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            transform.rotation *= Quaternion.Euler(0, 10, 0);
+        }
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            transform.rotation *= Quaternion.Euler(0, -10, 0);
+        }
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            transform.rotation *= Quaternion.Euler(-10, 0, 0);
+        }
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            transform.rotation *= Quaternion.Euler(10, 0, 0);
+        }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            transform.localScale += Vector3.one;
+        }
+        }
     }
 }
