@@ -200,7 +200,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 558413802}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 336, y: 1, z: -1988}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -378,7 +378,7 @@ RectTransform:
   m_Children:
   - {fileID: 2005392165}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -449,7 +449,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1789699511
 GameObject:
@@ -543,6 +543,7 @@ GameObject:
   - component: {fileID: 2005392167}
   - component: {fileID: 2005392166}
   - component: {fileID: 2005392169}
+  - component: {fileID: 2005392170}
   m_Layer: 5
   m_Name: bisiesto
   m_TagString: Untagged
@@ -681,12 +682,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2005392164}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d78a7b0aedfbc9b4fa0a827a5a41e96b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   year: 2016
+--- !u!114 &2005392170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005392164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f3d65cc79c39da47976340b2214f61b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myNum: 5
 --- !u!1 &2026531647
 GameObject:
   m_ObjectHideFlags: 0
